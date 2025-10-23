@@ -14,7 +14,7 @@ print("Tu nombre es:", nombre,"\n")
 print(type(numero))
 print("tu numero es:", numero ,"\n")
 
-print(type(nombre))
+print(type(flotante))
 print("Tu numero es :", flotante, "\n")
 
 # declaracion de variables de tipo constantes
