@@ -7,4 +7,4 @@ ef=float(input("ingrese la calificacion del examen final:"))
 pp=(p1+p2+p3)/3
 prom=(pp+(2*ep)+(3*ef))/6
 
-print("promedio del alumno es:",prom)
+print("Promedio del estudiante es:",pp," alumno es:",prom)
