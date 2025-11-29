@@ -1,0 +1,90 @@
+/*-----------------selector universal-----------------------*/
+/*
+*{
+    font-size: 50px;
+    color: hotpink;
+}*/
+
+/*-----------------selector de etiquetas-----------------------*/
+/*
+h1{
+    background-color: indigo ;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+}
+
+p{
+    text-align: center;
+}
+*/
+
+/*-----------------selector Multiple-----------------------*/
+/*
+h1,h2,h3,h4,h5,h6,p,a{
+    color: red;
+    background-color: black;
+}
+
+h1{
+    font-size: 72px;
+}
+*/
+
+/*-----------------selector class y ID-----------------------*/
+/*
+.parrafo1{
+    color: white;
+    font-size: 48px;
+    background-color: black;
+}
+
+.parrafo2{
+    color: white;
+    font-size: 24px;
+    background-color: black;
+}
+
+#identificador{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: chartreuse;
+}*/
+
+/*-----------------selector desendente(una etiqueta dentro de otra)-----------------------*/
+p a{
+    background-color: green;
+}
+
+/*-----------------selector desendente hijo-----------------------*/
+h1>a{
+    color: coral;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkslategray;
+}
+
+p>a{
+    color: firebrick;
+    font-size: 72px;
+}
+/*-----------------selectores adyacentes(selectores hermanos)-----------------------*/
+/*Son sleectores que tienen la misma etiqueta padre, ose a que son contenidos por el mismo selector al mismo tiempo*/
+h2 + h3{
+    color: fuchsia;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*
+[class]{
+    color: red;
+    font-size: 48px;
+    background-color: rosybrown;
+}*/
+
+[class="parrafo"]{
+    color: seagreen;
+    font-weight: bold;
+}
